@@ -1,0 +1,17 @@
+.Home {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.button-container button {
+    min-width: 520px; /* Ajusta este valor según el ancho del botón más ancho */
+    margin: 10px;
+    white-space: nowrap; /* Evita el salto de línea en los botones */
+}
+  
