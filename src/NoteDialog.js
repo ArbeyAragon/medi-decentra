@@ -46,7 +46,19 @@ function NoteDialog({ handleSave }) {
   return (
     <div>
       <Button onClick={handleOpenDialog}>Agregar Nota</Button>
-      <Dialog open={dialogOpen} onClose={handleCloseDialog}>
+      <Dialog
+        open={dialogOpen}
+        onClose={handleCloseDialog}
+        fullWidth
+        maxWidth="xl"
+        PaperProps={{
+          style: {
+            height: '90vh', // 90% of the viewport height
+            width: '90%', // 90% of the viewport width
+            maxWidth: 'none',
+          },
+        }}
+      >
         <DialogTitle>Agregar Nueva Nota</DialogTitle>
         <DialogContent>
           <TextField
@@ -65,9 +77,9 @@ function NoteDialog({ handleSave }) {
                 src={img}
                 alt={`Imagen ${index}`}
                 style={{
-                  width: "500px",
-                  height: "500px",
-                  objectFit: "cover",
+                  maxHeight: '36vh', // 40% of the popup's height
+                  maxWidth: '36%', // 40% of the popup's width
+                  objectFit: 'cover',
                 }}
               />
             ))}

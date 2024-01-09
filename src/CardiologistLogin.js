@@ -179,7 +179,7 @@ function CardiologistLogin() {
 
   return (
     <div>
-      <DrawerComponent doctorName={doctorName} menuList={menuList} />
+      <DrawerComponent userDid={doctorName} menuList={menuList} />
       {!selectedPatientId ? (
         patientList
       ) : (

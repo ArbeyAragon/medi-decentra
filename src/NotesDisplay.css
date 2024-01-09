@@ -1,7 +1,7 @@
 .noteCard {
     margin: 20px;
     width: calc(100% - 40px); /* Full width minus the margin */
-    max-height: 600px; /* Adjust this value as needed */
+    max-height: 300px; /* Adjust this value as needed */
     overflow: hidden; /* Ensures content doesn't overflow the card */
 }
 
@@ -12,7 +12,9 @@
 }
 
 .noteCard img {
-    max-width: 100%; /* Image will scale within card width */
-    max-height: 100%; /* Image will scale within card height */
-    object-fit: cover;
+    max-width: 100px; /* Maximum width of the image */
+    max-height: 100px; /* Maximum height of the image */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Preserve aspect ratio within max dimensions */
 }
