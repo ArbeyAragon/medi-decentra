@@ -17,11 +17,11 @@ function Home() {
       <div className="Home">
         <img src={logo} className="App-logo" alt="logo" />
         <div className="button-container">
-          <Button variant="contained" onClick={() => handleButtonClick('/user-login')}>User Login</Button>
-          <Button variant="contained" onClick={() => handleButtonClick('/general-physician-login')}>General Physician Login</Button>
-          <Button variant="contained" onClick={() => handleButtonClick('/cardiologist-login')}>Cardiologist Login</Button>
-          <Button variant="contained" onClick={() => handleButtonClick('/sample-collection-lab-login')}>Sample Collection Lab Login</Button>
-          <Button variant="contained" onClick={() => handleButtonClick('/cardiology-exams-lab-login')}>Cardiology Exams Lab Login</Button>
+          <Button variant="contained" onClick={() => handleButtonClick('/user-login')}>User Home</Button>
+          <Button variant="contained" onClick={() => handleButtonClick('/general-physician-login')}>General Physician Home</Button>
+          <Button variant="contained" onClick={() => handleButtonClick('/cardiologist-login')}>Cardiologist Home</Button>
+          <Button variant="contained" onClick={() => handleButtonClick('/sample-collection-lab-login')}>Sample Collection Lab Home</Button>
+          <Button variant="contained" onClick={() => handleButtonClick('/cardiology-exams-lab-login')}>Cardiology Exams Lab Home</Button>
         </div>
       </div>
     );

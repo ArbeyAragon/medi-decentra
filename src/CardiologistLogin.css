@@ -1,0 +1,32 @@
+.CardiologistLogin {
+    text-align: center;
+}
+
+.patientList {
+    width: 100%; /* Makes the list take the full width of its parent container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patientList .MuiListItem-root {
+    width: 100%; /* Makes each list item take the full width */
+}
+
+.patientList .MuiCard-root {
+    margin: 10px 0; /* Adds vertical margin for spacing */
+    width: calc(100% - 20px); /* Full width minus the margin */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container button {
+    min-width: 520px; /* Adjust this value as per the width of the widest button */
+    margin: 10px;
+    white-space: nowrap; /* Prevents line breaks in buttons */
+}
