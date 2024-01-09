@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/medi-decentra/static/css/main.94f5c1dd.css",
-    "main.js": "/medi-decentra/static/js/main.ac593d9b.js",
+    "main.js": "/medi-decentra/static/js/main.2b2eff86.js",
     "static/js/787.daf2a3b8.chunk.js": "/medi-decentra/static/js/787.daf2a3b8.chunk.js",
     "static/media/roboto-latin-500-normal.woff2": "/medi-decentra/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/medi-decentra/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
@@ -62,11 +62,11 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/medi-decentra/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/medi-decentra/index.html",
     "main.94f5c1dd.css.map": "/medi-decentra/static/css/main.94f5c1dd.css.map",
-    "main.ac593d9b.js.map": "/medi-decentra/static/js/main.ac593d9b.js.map",
+    "main.2b2eff86.js.map": "/medi-decentra/static/js/main.2b2eff86.js.map",
     "787.daf2a3b8.chunk.js.map": "/medi-decentra/static/js/787.daf2a3b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94f5c1dd.css",
-    "static/js/main.ac593d9b.js"
+    "static/js/main.2b2eff86.js"
   ]
 }
